@@ -1,0 +1,23 @@
+.contenedor {
+    background-color: coral;
+    padding: 2px;
+}
+ul.sub_contenedor {
+
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    font-size: 21px;
+    font-weight: 600;
+}
+.hover ul{
+    display: none;
+    list-style: none;
+}
+.hover:hover > ul{
+    display: block;
+    background-color: darkmagenta;
+    padding: 54px 4px;
+    position: absolute;
+    top: 79px;
+}
